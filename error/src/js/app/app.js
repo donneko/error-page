@@ -41,7 +41,7 @@ export class App{
         this.STATUS.setText(this.state.message)
     }
     #renderPage(){
-        this.PAGE.ChangeTitle(this.state.title);
+        this.PAGE.changeTitle(String(this.state.title ?? "???"));
     }
     #initNav(){
         this.NAV.setEventBackToPage(()=>{history.back()})

@@ -64,7 +64,7 @@
 }
 .info-scrollbar-style{
     scrollbar-width: thin;
-    scrollbar-color: var(--scrollbarthumbhover-background-color),var(--scrollbarthumb-background-color);
+    scrollbar-color: var(--scrollbarthumbhover-background-color) var(--scrollbarthumb-background-color);
 }
 .info-scrollbar-style::-webkit-scrollbar{
     width: 5px;

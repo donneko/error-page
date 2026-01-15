@@ -4,9 +4,9 @@ export class Page{
 
     }
 
-    ChangeTitle(text){
+    changeTitle(text){
         checkText(text)
-        document.head.title = text;
+        document.title = text;
     }
 
 }
